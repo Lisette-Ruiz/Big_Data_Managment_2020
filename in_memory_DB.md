@@ -38,7 +38,7 @@
 
 ## IN-MEMORY DATABASES.
 
-|        | Redis | Kinetica | Apache Ignite | Oracle RDBMS |
+|     F   | Redis | Kinetica | Apache Ignite | Oracle RDBMS |
 
 | ------ | ----- | -------- | ------------- | ------------ |
 
