@@ -1,15 +1,15 @@
  
 
 # IN-MEMORY DATABASE
-### Also known as : Main memory database or MMDB
-===
+### Also known as : **Main memory database or MMDB**
 
+***
 
 ### What In-memory Databases Are For? 
 
 : In-memory databases are designed to achieve minimal response time by eliminating the need to access disks. Because all data is stored and managed exclusively in main memory, you risk being lost in a process or server failure. In-memory databases can preserve data on disks by storing each operation in a log or taking snapshots. 
 
- 
+ - - -
 
 ### In-memory are made for: 
 
