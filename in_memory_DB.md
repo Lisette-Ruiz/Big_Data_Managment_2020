@@ -1,6 +1,6 @@
  
 
-## In - memory. 
+# In - memory. 
 ===
 
 
@@ -36,11 +36,11 @@
 4. The internal optimization algorithms for in-memory databases are simpler and execute fewer CPU instructions, thereby facilitating faster response times than disk-optimized databases. 
 
 
-# IN-MEMORY DATABASES.
+## IN-MEMORY DATABASES.
 
-| Redis | Kinetica | Apache Ignite | Oracle RDBMS |
+|        | Redis | Kinetica | Apache Ignite | Oracle RDBMS |
 |--|--|--|--|
-
+| 1.	Client interface      | C, C++, Python, Lua, C# | C++, C#, Java, JavaScript, Node.js. Python, HTTP | C++, C#, Java, JavaScript, Node.js. Python, HTTP	Java, SQL, JDBC, ODBC | ~ |
 
 
 
