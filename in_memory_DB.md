@@ -40,7 +40,7 @@
 
 Comparation between 4 in-memory databases:
 
- |	Description
+ f |	Description
 -- | --
 
 
