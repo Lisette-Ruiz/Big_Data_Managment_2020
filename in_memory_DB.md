@@ -43,8 +43,8 @@ Comparation between 4 in-memory databases:
  F   | Redis | Kinetica | Apache Ignite | Oracle RDBMS 
 -- | -- | -- | -- | -- |
 **Client interface** | C, C++, Python, Lua, C# | C++, C#, Java, JavaScript, Node.js. Python, HTTP | Java, SQL, JDBC, ODBC | F 
--- | -- | -- | -- | -- |
-License	Open Source (BSD) | Proprietary | Open Source (Apache License Version 2.0) | Proprietary
+**License** |	Open Source (BSD) | Proprietary | Open Source (Apache License Version 2.0) | Proprietary
+**Best Used** | Resolve very complex programming problems with simple commands executed within the data store, reducing coding effort, increasing throughput, and reducing latency. | Kinetica is an ideal solution for data discovery projects. | It was designed to store and compute on large volumes of data across a cluster of nodes.| It provides database introspection and various instruments for creating and modifying objects for the supported engines.
 
 
 
