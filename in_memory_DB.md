@@ -38,9 +38,9 @@
 
 ## IN-MEMORY DATABASES.
 
-Most popular data set:
+Comparation between 4 in-memory databases:
 
-Database |	Description
+ |	Description
 -- | --
 
 
