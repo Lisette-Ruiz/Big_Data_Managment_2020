@@ -40,8 +40,8 @@
 
 Comparation between 4 in-memory databases:
 
- F   | Redis 
--- | --
+ F   | Redis | Kinetica | Apache Ignite | Oracle RDBMS 
+-- | -- | -- | -- | -- |
 
 
 
