@@ -1,7 +1,7 @@
  
 
-# IN-MEMORY DATABASE
-### Also known as : **Main memory database or MMDB**
+# IN-MEMORY DATABASE {#cabecera1}
+[**Main memory database or MMDB**](#cabecera1)
 
 ***
 
@@ -15,7 +15,7 @@
 
 : In-memory databases are ideal for applications that require microsecond response times and can have large spikes in traffic at any time, such as game leaderboards, session stores, and real-time analytics. 
 
- 
+ ***
 
 ### Properties of In-memory Database Systems 
 
@@ -24,7 +24,7 @@
 - **Isolation**: It ensures that each transaction runs in total isolation and is completely independent of any other concurrent transactions. 
 - **Durability**: It ensures the completion of a transaction once assigned, even in the event of power loss, crashes, or errors. 
 
- 
+ - - -
 
 ### Advantages of In-memory Database Systems.
 
@@ -36,6 +36,7 @@
 
 4. The internal optimization algorithms for in-memory databases are simpler and execute fewer CPU instructions, thereby facilitating faster response times than disk-optimized databases. 
 
+***
 
 ## IN-MEMORY DATABASES.
 
