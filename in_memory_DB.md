@@ -40,9 +40,9 @@
 
 | Redis | Kinetica |
 
--- | -- | 
+| -- | -- | 
 
-|	Client interface | C, C++, Python, Lua, C# |
+
 
 
 
