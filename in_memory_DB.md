@@ -38,9 +38,9 @@
 
 ## IN-MEMORY DATABASES.
 
-Redis | Kinetica 
+| Redis | Kinetica |
 
- -- | -- 
+| -- | -- |
 
 
 
