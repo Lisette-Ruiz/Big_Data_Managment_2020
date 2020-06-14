@@ -42,7 +42,7 @@ Comparation between 4 in-memory databases:
 
  F   | Redis | Kinetica | Apache Ignite | Oracle RDBMS 
 -- | -- | -- | -- | -- |
-Client interface | C, C++, Python | C++, C#, Java | C++, C#, Java | F 
+Client interface | C, C++, Python, Lua, C# | C++, C#, Java, JavaScript, Node.js. Python, HTTP | Java, SQL, JDBC, ODBC | F 
 
 
 
