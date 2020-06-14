@@ -38,10 +38,10 @@
 
 ## IN-MEMORY DATABASES.
 
-| Redis | Kinetica |
+Most popular data set:
 
-| -- | -- |
-
+Database |	Description
+-- | --
 
 
 
