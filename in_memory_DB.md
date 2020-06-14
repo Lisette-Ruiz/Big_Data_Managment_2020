@@ -43,6 +43,8 @@ Comparation between 4 in-memory databases:
  F   | Redis | Kinetica | Apache Ignite | Oracle RDBMS 
 -- | -- | -- | -- | -- |
 **Client interface** | C, C++, Python, Lua, C# | C++, C#, Java, JavaScript, Node.js. Python, HTTP | Java, SQL, JDBC, ODBC | F 
+-- | -- | -- | -- | -- |
+License	Open Source (BSD) | Proprietary | Open Source (Apache License Version 2.0) | Proprietary
 
 
 
