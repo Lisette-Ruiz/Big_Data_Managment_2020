@@ -39,7 +39,9 @@
 ## IN-MEMORY DATABASES.
 
 |        | Redis | Kinetica | Apache Ignite | Oracle RDBMS |
-|--|--|--|--|
+
+|--|--|--|--|--|
+
 | 1.	Client interface      | C, C++, Python, Lua, C# | C++, C#, Java, JavaScript, Node.js. Python, HTTP | C++, C#, Java, JavaScript, Node.js. Python, HTTP	Java, SQL, JDBC, ODBC | ~ |
 
 
