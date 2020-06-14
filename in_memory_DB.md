@@ -18,10 +18,10 @@
 
 ### Properties of In-memory Database Systems 
 
-- Atomicity: this involves a single data transfer and avoids the optimized processing of multiple data transfers. Every transaction is "all or nothing". 
-- Consistency: This ensures that the data exists in a consistent and valid state that complies with all defined data existence rules. 
-- Isolation: It ensures that each transaction runs in total isolation and is completely independent of any other concurrent transactions. 
-- Durability: It ensures the completion of a transaction once assigned, even in the event of power loss, crashes, or errors. 
+- **Atomicity** : this involves a single data transfer and avoids the optimized processing of multiple data transfers. Every transaction is "all or nothing". 
+- **Consistency**: This ensures that the data exists in a consistent and valid state that complies with all defined data existence rules. 
+- **Isolation**: It ensures that each transaction runs in total isolation and is completely independent of any other concurrent transactions. 
+- **Durability**: It ensures the completion of a transaction once assigned, even in the event of power loss, crashes, or errors. 
 
  
 
@@ -29,7 +29,7 @@
 
 1. An in-memory database system streamlines processing by eliminating multiple data transfers, reduces memory consumption by removing multiple copies of data, and simplifies processing by minimizing CPU demands. 
 
-2. The major advantage of systems using in-memory databases vs traditional database systems is: its performance speed. 
+2. __The major advantage of systems using in-memory databases vs traditional database systems is: its performance speed.__ 
 
 3. Source data is loaded into the system memory in a compressed and  format. Therefore, in-memory processing reduces disk seek time for accessing data and streamlining the work involved in processing queries. 
 
@@ -40,7 +40,7 @@
 
 |        | Redis | Kinetica | Apache Ignite | Oracle RDBMS |
 
-| -- | -- | -- | -- | -- |
+| ------ | ----- | -------- | ------------- | ------------ |
 
 |	Client interface      | C, C++, Python, Lua, C# | C++, C#, Java, JavaScript, Node.js. Python, HTTP | C++, C#, Java, JavaScript, Node.js. Python, HTTP	Java, SQL, JDBC, ODBC | ~ |
 
