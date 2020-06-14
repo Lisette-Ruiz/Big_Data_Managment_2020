@@ -5,15 +5,16 @@
 
 ***
 
-### What In-memory Databases Are For? 
+### What is an In-memory Databases ? 
 
-: In-memory databases are designed to achieve minimal response time by eliminating the need to access disks. Because all data is stored and managed exclusively in main memory, you risk being lost in a process or server failure. In-memory databases can preserve data on disks by storing each operation in a log or taking snapshots. 
+ : They stores computer data in a computer’s main memory instead of a disk drive to produce quicker response times. On other words, they keep all its data in the random access memory (RAM) of a computer. Only the main memory is accessed when querying data. This allows for faster access of that data than a disk-based system.
+
 
  - - -
 
 ### In-memory are made for: 
 
-: In-memory databases are ideal for applications that require microsecond response times and can have large spikes in traffic at any time, such as game leaderboards, session stores, and real-time analytics. 
+ : In-memory databases are ideal for applications that require microsecond response times and can have large spikes in traffic at any time, such as game leaderboards, session stores, and real-time analytics. 
 
  ***
 
@@ -25,6 +26,13 @@
 - **Durability**: It ensures the completion of a transaction once assigned, even in the event of power loss, crashes, or errors. 
 
  - - -
+ ### How Does an In-Memory Database Work?
+ 
+ : Data storage in an in-memory database relies on a computer’s random access memory (RAM) or main memory instead of traditional disk drives. Data is loaded into an in-memory database in a compressed and non-relational format. The data is in a directly usable format without the barrier of compression or encryption. It allows for direct navigation from index to row or column and is a read-only system.
+
+The speed of an in-memory database is made possible by lack of translation and caching. The data is used in the same form as the application that contains it. Data access is managed by an in-memory database management system.
+
+An in-memory database system can also act as an read-only analytic database that stores historical data on metrics for business intelligence (BI) applications. This eliminates data indexing, which can reduce IT costs. Multi-core servers, 64-bit computing and lower RAM prices have made in-memory analytics more common.
 
 ### Advantages of In-memory Database Systems.
 
@@ -36,7 +44,10 @@
 
 4. The internal optimization algorithms for in-memory databases are simpler and execute fewer CPU instructions, thereby facilitating faster response times than disk-optimized databases. 
 
+5. In-memory databases allow for real-time analysis and reporting of data.
+
 ***
+
 
 ## IN-MEMORY DATABASES.
 
