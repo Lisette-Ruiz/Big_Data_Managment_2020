@@ -1,6 +1,7 @@
  
 
-# IN-MEMORY
+# IN-MEMORY DATABASE
+### Also known as : Main memory database or MMDB
 ===
 
 
