@@ -1,18 +1,18 @@
  
 
-## In- memory. 
-===============
+## In - memory. 
+===
 
 
 ### What In-memory Databases Are For? 
 
-In-memory databases are designed to achieve minimal response time by eliminating the need to access disks. Because all data is stored and managed exclusively in main memory, you risk being lost in a process or server failure. In-memory databases can preserve data on disks by storing each operation in a log or taking snapshots. 
+: In-memory databases are designed to achieve minimal response time by eliminating the need to access disks. Because all data is stored and managed exclusively in main memory, you risk being lost in a process or server failure. In-memory databases can preserve data on disks by storing each operation in a log or taking snapshots. 
 
  
 
 ### In-memory are made for: 
 
-In-memory databases are ideal for applications that require microsecond response times and can have large spikes in traffic at any time, such as game leaderboards, session stores, and real-time analytics. 
+: In-memory databases are ideal for applications that require microsecond response times and can have large spikes in traffic at any time, such as game leaderboards, session stores, and real-time analytics. 
 
  
 
@@ -34,3 +34,13 @@ In-memory databases are ideal for applications that require microsecond response
 3. Source data is loaded into the system memory in a compressed and  format. Therefore, in-memory processing reduces disk seek time for accessing data and streamlining the work involved in processing queries. 
 
 4. The internal optimization algorithms for in-memory databases are simpler and execute fewer CPU instructions, thereby facilitating faster response times than disk-optimized databases. 
+
+
+# IN-MEMORY DATABASES.
+
+| Redis | Kinetica | Apache Ignite | Oracle RDBMS |
+|--|--|--|--|
+
+
+
+
