@@ -1,6 +1,6 @@
  
 
-# IN-MEMORY DATABASE {#cabecera1}
+# IN-MEMORY DATABASE 
 [**Main memory database or MMDB**](#cabecera1)
 
 ***
