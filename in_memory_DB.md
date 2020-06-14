@@ -1,6 +1,6 @@
  
 
-# In - memory. 
+<h1>IN-MEMORY</h1>
 ===
 
 
@@ -38,11 +38,11 @@
 
 ## IN-MEMORY DATABASES.
 
-|     F   | Redis | Kinetica | Apache Ignite | Oracle RDBMS |
+ F   | Redis | Kinetica | Apache Ignite | Oracle RDBMS 
 
-| ------ | ----- | -------- | ------------- | ------------ |
+-- | -- | -- | -- | -- |
 
-|	Client interface      | C, C++, Python, Lua, C# | C++, C#, Java, JavaScript, Node.js. Python, HTTP | C++, C#, Java, JavaScript, Node.js. Python, HTTP	Java, SQL, JDBC, ODBC | ~ |
+|	Client interface | C, C++, Python, Lua, C# | C++, C#, Java, JavaScript, Node.js. Python, HTTP | C++, C#, Java, JavaScript, Node.js. Python, HTTP	Java, SQL, JDBC, ODBC | |
 
 
 
