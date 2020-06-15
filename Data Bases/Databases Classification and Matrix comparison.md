@@ -72,6 +72,15 @@ Comparation between 4 in-memory databases:
 **Consistency** | It is networked, in-memory, and stores keys with optional durability. | Functions like a RDBMS (structured data) for fast analytics on datasets in the hundreds of GBs to 10's of TBs range. | Durable, strongly consistent, and highly available with powerful SQL, key-value and processing APIs. | RDBMS Oracle 12c contains an option for in-memory technology (additional licenses required).
 **Platforms** | Written in ANSI C and works in most POSIX systems like Linux, *BSD, OS X. | GPU-Accelerated Database. | Apache is a platform designed to store and compute on large volumes of data across a cluster of nodes. | Make market-leading components (databases, application servers, web servers, which lets customers to implement PeopleSoft on the infrastructure.
 
+*** 
+> ## REFERENCES:
+
+- https://aws.amazon.com/es/nosql/in-memory/
+- https://whatis.techtarget.com/definition/in-memory-database
+- https://hazelcast.com/glossary/in-memory-database/
+- https://raima.com/in-memory-database/
+
+***
 
 # SEARCH-ENGINE DATABASE
 
