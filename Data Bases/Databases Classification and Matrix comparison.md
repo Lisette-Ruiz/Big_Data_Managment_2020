@@ -3,7 +3,7 @@
 ### Team: Monse Valbuena, Lisette Ruiz, Héctor Hernández
 
 >> Introduction:
-In the following description are three different kinds of usefull databases which are mainly focussed to work with bigdata.
+In the following script are three different kinds of usefull databases which are mainly focussed to work with bigdata.
 
 
 
