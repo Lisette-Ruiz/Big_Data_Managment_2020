@@ -2,6 +2,13 @@
 
 ### Team: Monse Valbuena, Lisette Ruiz, Héctor Hernández
 
+>> Introduction:
+In the following description are thre different kinds of usefull databases, they are mainly focussed to work with bigdata.
+
+
+
+
+
 # 1. IN-MEMORY DATABASE 
 [**Main memory database or MMDB**](#cabecera1)
 
