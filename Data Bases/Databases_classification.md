@@ -141,7 +141,6 @@ Maintaining larger applications that are either distributed across several nodes
 - **Index**: Store and organize the content found during the crawling process. Once a page is in the index, it’s in the running to be displayed as a result to relevant queries.
 - **Rank**: Provide the pieces of content that will best answer a searcher's query, which means that results are ordered by most relevant to least relevant.
 
-
 ![](crawling.png)
 
 *Source: https://moz.com/beginners-guide-to-seo/how-search-engines-operate *
