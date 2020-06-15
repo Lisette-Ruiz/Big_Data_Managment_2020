@@ -1,8 +1,8 @@
 # Databases Classification and Matrix comparison
 
-# Team: Monse Valbuena, Lisette Ruiz, Héctor Hernández
+### Team: Monse Valbuena, Lisette Ruiz, Héctor Hernández
 
-# IN-MEMORY DATABASE 
+# 1. IN-MEMORY DATABASE 
 [**Main memory database or MMDB**](#cabecera1)
 
 ***
