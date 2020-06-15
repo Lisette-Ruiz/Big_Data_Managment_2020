@@ -82,7 +82,7 @@ Comparation between 4 in-memory databases:
 
 ***
 
-# SEARCH-ENGINE DATABASE
+# 2. SEARCH-ENGINE DATABASE
 
 ---
 
@@ -186,7 +186,7 @@ The search engine does indexing and search, and other parts of the application a
 |Features|Data rollups, index lifecycle management, Distributed search, Multi-tenancy, An analyzer chain, Analytical search, Grouping & aggregation|Full-text search, hit highlighting, faceted search, real-time indexing, dynamic clustering, database integration, NoSQL features and rich document (e.g., Word, PDF) handling|Batch and incremental (soft real-time) full-text indexing, Support for non-text attributes (scalars, strings, sets, JSON), Direct indexing of SQL databases. Native support for MySQL, MariaDB,PostgreSQL, MSSQL, plus ODBC connectivity, XML document indexing support, Full-text searching syntax, Database-like result set processing, Relevance ranking utilizing additional factors besides standard BM25|
 
 
-# Time Series
+# 3. Time Series
 
 ## Introduction 
 
