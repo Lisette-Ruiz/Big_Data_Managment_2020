@@ -43,3 +43,14 @@ The CODASYL model was a generalization of the hierarchical model. In the tree st
 > For example, there could be a record for the "Greater Seattle Area" region, and all users who lived in that region could be linked to it. This enabled many-to-one and many-to-many relationships to be modeled.
 
 ***
+
+## 6. Describe if there is a query language paradigm for each specific use case and describe what you should consider before choosing one?
+
+No, it simply adapts to the need. Neither paradigm is better than the other; each has different strengths for software development.
+
+### Aspects to consider before choosing a query language paradigm:
+- The project requires greater precision and control.
+- Imperative query languages ​​work well.
+- If speed and productivity of the development process are more important, declarative languages ​​offer the flexibility to get results without much effort.
+
+***
