@@ -1,3 +1,3 @@
- **What is known as independence misadjustment?**
+### **What is known as independence misadjustment?**
 - To disconnect database models of tables, rows and columns
  
