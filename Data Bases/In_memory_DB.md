@@ -69,7 +69,7 @@ Comparation between 4 in-memory databases:
 **Platforms** | Written in ANSI C and works in most POSIX systems like Linux, *BSD, OS X. | GPU-Accelerated Database. | Apache is a platform designed to store and compute on large volumes of data across a cluster of nodes. | Make market-leading components (databases, application servers, web servers, which lets customers to implement PeopleSoft on the infrastructure.
 
 
-
+*** 
 ## REFERENCES:
 
 - https://aws.amazon.com/es/nosql/in-memory/
