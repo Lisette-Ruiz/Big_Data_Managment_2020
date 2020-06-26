@@ -30,7 +30,7 @@ just means allowing clients to make low-latency reads and writes; as opposed to 
 
 ***
 
-## 5. **Why is it said that databases started to be used for data analysis?**
+## 5. Why is it said that databases started to be used for data analysis?
 
 - Because when returning the query data, they are requested with certain operations or are filtered. an analytical query should be scanned over a large number of records, (only reads a few columns per record) and computes aggregated statistics (such as count, sum, or average) instead of returning raw data to user.
 
