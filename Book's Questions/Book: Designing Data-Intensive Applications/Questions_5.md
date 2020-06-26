@@ -24,9 +24,8 @@ Compaction means throwing away duplicate keys in the log, and keeping only the m
 
 ***
 
-## 4. **Explain the difference between Transaction processing and batch processing **
-- Transaction processing
-just means allowing clients to make low-latency reads and writes; as opposed to batch processing jobs, which only run periodically (for example, once per day).
+## 4. Explain the difference between Transaction processing and batch processing 
+- Transaction processing just means allowing clients to make low-latency reads and writes; as opposed to batch processing jobs, which only run periodically (for example, once per day).
 
 ***
 
