@@ -46,4 +46,10 @@ In a single-leader configuration, if the datacenter with the leader fails, failo
 figuration, each datacenter can continue operating independently of the others, and replication catches up when the failed datacenter comes back online.
 
 - Tolerance of network problems
-A single-leader configuration is very sensitive to problems in public internet interdatacenter link, because writes are made synchronously over this link. A multi-leader configuration with asynchronous replication can usually tolerate network problems better: a temporary network interruption does not prevent writes being processed
+A single-leader configuration is very sensitive to problems in public internet interdatacenter link, because writes are made synchronously over this link. A multi-leader configuration with asynchronous replication can usually tolerate network problems better: a temporary network interruption does not prevent writes being processed.
+
+***
+
+## 6. which is the simplest strategy for dealing with conflicts,  please justify your answer.
+
+The simplest strategy for dealing with conflicts is to avoid them: if the application can ensure that all writes for a particular record go through the same leader, then conflicts cannot occur.
