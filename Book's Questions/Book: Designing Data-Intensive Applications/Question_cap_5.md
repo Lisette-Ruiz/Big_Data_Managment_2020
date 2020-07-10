@@ -39,11 +39,10 @@ It is usually a sequence of records that describe writes to database tables with
 
 - Performance
 
-In a single-leader configuration, every write must go over the internet to the datacenter with the leader. while In a multi-leader configuration, every write can be processed in the local datacenter and is replicated asynchronously to the other datacenters. 
+In a single-leader configuration, every write must go over the internet to the datacenter with the leader. While In a multi-leader configuration, every write can be processed in the local datacenter and is replicated asynchronously to the other datacenters. 
 
 - Tolerance of datacenter outages
-In a single-leader configuration, if the datacenter with the leader fails, failover can promote a follower in another datacenter to be leader. In a multi-leader con‐
-figuration, each datacenter can continue operating independently of the others, and replication catches up when the failed datacenter comes back online.
+In a single-leader configuration, if the datacenter with the leader fails, failover can promote a follower in another datacenter to be leader. In a multi-leader configuration, each datacenter can continue operating independently of the others, and replication catches up when the failed datacenter comes back online.
 
 - Tolerance of network problems
 A single-leader configuration is very sensitive to problems in public internet interdatacenter link, because writes are made synchronously over this link. A multi-leader configuration with asynchronous replication can usually tolerate network problems better: a temporary network interruption does not prevent writes being processed.
