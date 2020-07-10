@@ -1,11 +1,11 @@
 ***
-## 1. What is Log  used for it is usefull in databases?.
+## 1. Why is it important to keep a copy of the same data on multiple machines that are connected through a network??.
 
-- The word log is often used to refer to application logs, where an application outputs text that describes what’s happening.
-- log is used in the more general sense: an append-only sequence of records. 
-
-**Note**: It doesn’t have to be human-readable; it might be binary and intended only for other programs to read.
-
+- To keep data geographically close to your users (and thus reduce latency)
+- To allow the system to continue working even if some of its parts have failed
+(and thus increase availability)
+- To scale the number of machines that can serve reading queries (and therefore
+increase reading performance)
 
 
 ***
