@@ -1,5 +1,5 @@
 ***
-## 1. Why is it important to keep a copy of the same data on multiple machines that are connected through a network?
+## 1. Why is so important to keep a copy of the same data on multiple machines that are connected through a network?
 
 - To keep data geographically close to your users (and thus reduce latency).
 - To allow the system to continue working even if some of its parts have failed
