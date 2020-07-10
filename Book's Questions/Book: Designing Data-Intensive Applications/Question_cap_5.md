@@ -1,35 +1,49 @@
 ***
-## 1. Why is it important to keep a copy of the same data on multiple machines that are connected through a network??.
+## 1. Why is it important to keep a copy of the same data on multiple machines that are connected through a network?
 
-- To keep data geographically close to your users (and thus reduce latency)
+- To keep data geographically close to your users (and thus reduce latency).
 - To allow the system to continue working even if some of its parts have failed
-(and thus increase availability)
+(and thus increase availability).
 - To scale the number of machines that can serve reading queries (and therefore
-increase reading performance)
+increase reading performance).
 
 
 ***
 
-## 2. **In chapter 3 it is described that db_get has terrible performance, why?**
-- There is a problem if you have a large number of records in your database, since every time you want to look up a key, db_get has to scan the entire database file from beginning to end, looking for occurrences of the key.
-
-**Note**: In algorithmic terms, the cost of a lookup is O(n): if you double the number of records n in your database, a lookup takes twice as long. 
+## 2. Describe what a simultaneously constant automatic failover process consists of in the following steps.
+- Determining that the leader has failed.
+- Choosing a new leader.
+- Reconfiguring the system to use the new leader.
  
 ***
 
-## 3. **Describe what "compaction" mean,  focussing on key values.**
+## 3.Explains what is log log for a relational database and describes some of its properties described in chapter 5
 
-Compaction means throwing away duplicate keys in the log, and keeping only the most recent update for each key.In other words, it is the compaction of a key-value update log (counting the number of times each cat video was played), retaining only the most recent value for each key.
+It is usually a sequence of records that describe writes to database tables with the granularity of a row.
 
+- For an inserted row, the record contains the new values of all the columns.
+
+- For a deleted row, the record contains enough information to uniquely identify the row that was deleted. Normally, this would be the primary key, but if there is no primary key in the table, the old values of all columns should be recorded.
+
+- For an updated row, the record contains enough information to uniquely identify the updated row and new values for all columns (or at least new values for all columns that changed).
 
 ***
 
-## 4. Explain the difference between Transaction processing and batch processing 
-- Transaction processing just means allowing clients to make low-latency reads and writes; as opposed to batch processing jobs, which only run periodically (for example, once per day).
+
+## 4. In solutions for Replication Lag, what are transactions?
+- They are a way for a database to provide stronger guarantees so that the application can be simpler.
 
 ***
 
-## 5. Why is it said that databases started to be used for data analysis?
+## 5.  Compare how the single-leader and multi-leader configurations fare in a multidatacenter deployment:
 
-- Because when returning the query data, they are requested with certain operations or are filtered. an analytical query should be scanned over a large number of records, (only reads a few columns per record) and computes aggregated statistics (such as count, sum, or average) instead of returning raw data to user.
+- Performance
 
+In a single-leader configuration, every write must go over the internet to the datacenter with the leader. while In a multi-leader configuration, every write can be processed in the local datacenter and is replicated asynchronously to the other datacenters. 
+
+- Tolerance of datacenter outages
+In a single-leader configuration, if the datacenter with the leader fails, failover can promote a follower in another datacenter to be leader. In a multi-leader con‐
+figuration, each datacenter can continue operating independently of the others, and replication catches up when the failed datacenter comes back online.
+
+- Tolerance of network problems
+A single-leader configuration is very sensitive to problems in public internet interdatacenter link, because writes are made synchronously over this link. A multi-leader configuration with asynchronous replication can usually tolerate network problems better: a temporary network interruption does not prevent writes being processed
