@@ -12,11 +12,9 @@ R: Using foreign key constraints or unique constraints.
  
 ***
 
-## 3. What is the central idea of ACID consistency and on what does it depend?
+## 3. Explain what would happen if a system does not apply with the atomicity criterion.
 
-R:
-.The idea of ACID consistency is that you have certain statements about your data (invariants) that must always be true.
--It depends on the application’s notion of invariants.
+R: Without atomicity, if an error occurs partway through making multiple changes, it’s difficult to know which changes have taken effect and which haven’t. The app might try again, but that corrects the risk of making the same change twice, leading to a duplicator or Incorrect Data.
 
 ***
 
